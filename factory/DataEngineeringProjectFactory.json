@@ -1,0 +1,9 @@
+{
+	"name": "DataEngineeringProjectFactory",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a58a4877-0e32-4dab-9e5a-03f89d055789",
+		"tenantId": "bc225f2a-29eb-4c19-a4ea-e09113e3bb20"
+	}
+}
