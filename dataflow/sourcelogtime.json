@@ -43,7 +43,7 @@
 				"     allowSchemaDrift: true,",
 				"     validateSchema: false,",
 				"     ignoreNoFilesFound: false) ~> source1",
-				"source1 derive(Time = substring(Time, 0, 10)) ~> Sourcelogtimeformat",
+				"source1 derive(Time = toTimestamp(substring(Time, 0, 10),'yyyy-mm-dd')) ~> Sourcelogtimeformat",
 				"Sourcelogtimeformat sink(allowSchemaDrift: true,",
 				"     validateSchema: false,",
 				"     input(",
